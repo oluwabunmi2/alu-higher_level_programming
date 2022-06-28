@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
-fizzbuzz = __import__('12-fizzbuzz').fizzbuzz
-fizzbuzz()
-print("")
+#!/usr/bin/python3
+FIZZ = "Fizz"
+BUZZ = "Buzz"
 
 
 def fizzbuzz():
