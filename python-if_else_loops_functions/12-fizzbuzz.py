@@ -1,8 +1,9 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 fizzbuzz = __import__('12-fizzbuzz').fizzbuzz
+FIZZ = "Fizz"
+BUZZ = "Buzz"
 
-fizzbuzz()
-print("")
+
 def fizzbuzz():
     for number in range(1, 101):
         if (number % 3 and number % 5):
